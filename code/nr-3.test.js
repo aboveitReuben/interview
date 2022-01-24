@@ -74,7 +74,7 @@ describe("Quirks", () => {
       let func = function () {};
 
       const actual = func == func;
-      const expected = true;
+      const expected = "";
       expect(actual).toEqual(expected);
     });
   });
